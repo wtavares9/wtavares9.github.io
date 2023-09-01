@@ -1,0 +1,67 @@
+.black_box {
+  background-color: black;
+  color: white;
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+}
+
+p1{
+  font-size: 22px;
+}
+
+.info{
+ width: 100%;
+ display: block;
+ color: white;
+}
+.left {
+ float: left;
+ width: 33.33%;
+ background-color: black;
+}
+.right {
+ float: right;
+ width: 33.33%;
+ background-color: black;
+}
+.center {
+ width: 33.33%;
+ display: inline-block;
+ background-color: black;
+}
+
+
+/* Create a two-column layout using flexbox */
+.resume_container {
+    display: flex;
+    justify-content: space-between; /* Distribute columns with space between */
+    max-width: 800px; /* Adjust this as needed */
+    margin: 0 auto; /* Center the container on the page */
+}
+
+.left_column {
+    flex-basis: 70%; /* Set the width of each column */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.right_column {
+    flex-basis: 30%; /* Set the width of each column */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+
+.right_column {
+  background-color: #E8E8E8;
+  color: black;
+
+
+
+
+
+
+
+
+
