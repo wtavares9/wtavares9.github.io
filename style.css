@@ -38,17 +38,17 @@ p1{
 .resume_container {
     display: flex;
     justify-content: space-between; /* Distribute columns with space between */
-    max-width: 800px; /* Adjust this as needed */
+    max-width: 2000px; /* Adjust this as needed */
     margin: 0 auto; /* Center the container on the page */
 }
 
 .left_column {
-    flex-basis: 50%; /* Set the width of each column */
+    flex-basis: 70%; /* Set the width of each column */
     padding: 20px; /* Add some padding for spacing */
 }
 
 .right_column {
-    flex-basis: 50%; /* Set the width of each column */
+    flex-basis: 30%; /* Set the width of each column */
     padding: 20px; /* Add some padding for spacing */
 }
 
